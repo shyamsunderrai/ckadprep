@@ -1,7 +1,7 @@
 # ckadprep
 Course sessions and output from killer.sh
 
-### Question 1: Task Weight 2%
+## Question 1: Task Weight 2%
 ```text
 Create a single Pod of image httpd:2.4.41-alpine in Namespace default. 
 The Pod should be named pod1 and the container should be named pod1-container.
@@ -33,7 +33,7 @@ spec:
 echo "kubectl get pod pod1 -o wide" >> /opt/course/2/pod1-status-command.sh
 ```
 
-### Question 2: Task Weight 1%
+## Question 2: Task Weight 1%
 ```text
 The DevOps team would like to get the list of all Namespaces in the cluster. 
 Get the list and save it to /opt/course/1/namespaces.
@@ -63,7 +63,7 @@ venus             Active   88d
 kubectl get namespaces > /opt/course/1/namespaces
 ```
 
-### Question 3: Task Weight 2%
+## Question 3: Task Weight 2%
 ```text
 Team Neptune needs a Job template located at /opt/course/3/job.yaml. 
 This Job should run image busybox:1.31.0 and execute sleep 2 && echo done. 
@@ -120,7 +120,7 @@ Check the status of the job
 kubectl describe jobs neb-new-job -n neptune
 ```
 
-### Question 3: Weight 5%
+## Question 4: Weight 5%
 ```text
 Team Mercury asked you to perform some operations using Helm, all in Namespace mercury:
 
